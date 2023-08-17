@@ -1,10 +1,11 @@
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
-import Nav from "./Navigation/Nav";
+
 import Products from "./Products/Products";
+import Navbar from "./Navigation/Navbar";
 function App() {
   return (
     <Router>
-      <Nav/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Products/>}/>
       </Routes>
