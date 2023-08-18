@@ -13,13 +13,13 @@ function Navbar() {
         />
       </div>
       <div className="profile-continer">
-        <a href="https://www.google.com/">
+        <a href="#" className="nav-icons">
           <FiHeart />
         </a>
-        <a href="https://www.google.com/">
+        <a href="#" className="nav-icons">
           <AiOutlineShoppingCart />
         </a>
-        <a href="https://www.google.com/">
+        <a href="#" className="nav-icons">
           <AiOutlineUserAdd />
         </a>
       </div>

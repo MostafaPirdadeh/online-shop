@@ -1,5 +1,5 @@
 import React from 'react'
-import "Price.css"
+import "./Price.css"
 function Price() {
   return (
     <div>Price</div>
