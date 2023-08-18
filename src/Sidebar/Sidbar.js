@@ -3,16 +3,13 @@ import Category from "./Category/Category.js"
 import Price from "./Price/Price.js"
 import Colors from './Colors/Colors.js'
 import "./Sidebar.css"
-function Sidbar() {
+function Sidbar({ handleChange }) {
   return (
     <>
-     <section className="sidebar">
-        {/* <div className="logo-container">
-          <h1>🛒</h1>
-        </div> */}
-        <Category/>
-        <Price/>
-        <Colors/>
+      <section className="sidebar">
+        <Category handleChange={handleChange} />
+        <Price handleChange={handleChange} />
+        <Colors handleChange={handleChange} />
       </section>
     </>
   )
